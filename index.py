@@ -4,43 +4,37 @@
 # arrayForProblem2 = ["Kenn", "Kevin", "Erin", "Meka"]
 # ```
 # a) Print the 3rd element of the numberList.
-# 
-#     b) Print the size of the array
-# 
+# b) Print the size of the array
 # c) Delete the second element.
-# 
-#     d) Print the 3rd element.
-
+# d) Print the 3rd element.
 # def main():
 #     problem1()
-# def problem1():
-#     myArray = ["Kenn", "Kevin", "Erin", "Meka"]
-#     # print(myArray[3])
-#     # myArray.remove(myArray[2])
-#     # print(myArray[3])
+def problem1():
+    myArray = ["Kenn", "Kevin", "Erin", "Meka"]
+    # !! : the third element is index position 2
+    print(myArray[3])
+    # !! : the second item in index position 1
+    myArray.remove(myArray[2])
+    # !! : the third element is index position 2
+    print(myArray[3])
 
-
-#     ### Problem 2:
-#     ##### We will keep having this problem until EVERYONE gets it right without help
-#     Create a function that has a loop that quits with ‘q’. If the user doesn't enter 'q', ask them to input another string.
-
-
-#
-# user = input("")
-# while user != "q":
-#    user = input("Try Again- ")
-
+# Problem 2:
+# We will keep having this problem until EVERYONE gets it right without help
+# Create a function that has a loop that quits with ‘q’. If the user doesn't enter 'q', ask them to input another string.
+user = input("") # !! : you should prompt the user when you use input 
+while user != "q":
+   user = input("Try Again- ")
 
 # ### Problem 4:
 # Create an array of 5 numbers. <strong>Using a loop</strong>, print the elements in the array reverse order. <strong>Do not use a function</strong>
 
+# !! : incomplete 
 # myArray = 
-
 
 # ### Problem 5:
 # Create a function that will have a hard coded array then ask the user for a number. Use the userInput to state how many numbers in an array are higher, lower, or equal to it.
-
 def main():
+    # !! : this does not answer the question at all
     myArray = [1, 2, 3, 4, 4, 2, 4, 2, 2, 1, 4, 2]
     userInput = int(input("Pick a number 1-4: "))
     for eachNum in myArray:
